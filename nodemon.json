@@ -1,0 +1,10 @@
+{
+  "ignore": [
+    "node_modules"
+  ],
+  "watch": [
+    "src"
+  ],
+  "exec": "yarn build:dev && node --inspect=9411 build/index.js",
+  "ext": "ts"
+}
